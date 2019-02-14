@@ -1,0 +1,10 @@
+Amount_Purchased=float(input("Enter the amount you purchased: "))
+State_Tax=.05
+county_Tax=.025
+Total_Tax=float(State_Tax+county_Tax)
+Total_Sale=float(Amount_Purchased+(Amount_Purchased*Total_Tax))
+print(Amount_Purchased)
+print(State_Tax)
+print(county_Tax)
+print(Total_Tax)
+print(Total_Sale)
